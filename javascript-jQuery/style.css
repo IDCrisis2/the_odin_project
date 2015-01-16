@@ -1,0 +1,30 @@
+body {
+	text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;
+	height: auto;
+}
+
+#main {
+	margin: 0 auto;
+	width: 100%;
+}
+
+table {
+	margin: 0 auto;
+	border: solid 1px black;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	background-color: black;
+}
+
+tr td {
+	border: none;
+	border-spacing: 0px;
+}
+.highlight {
+	background-color: white;
+}
