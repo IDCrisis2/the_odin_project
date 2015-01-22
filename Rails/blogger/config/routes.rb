@@ -9,5 +9,7 @@ Rails.application.routes.draw do
 
   get 'login' => 'author_sessions#new'
   get 'logout' => 'author_sessions#destroy'
+
+  root 'drinks#index'
   
 end
