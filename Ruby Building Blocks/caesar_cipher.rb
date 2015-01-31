@@ -1,3 +1,7 @@
+=begin
+A Caesar cipher program written in Ruby which will take in a string of any length and an integer value for a shift length and returns an encrypted version of the original string.
+=end 
+
 def cipher(text, shift)
 	new_text = []
 	i = 0
