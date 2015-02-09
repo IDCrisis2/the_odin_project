@@ -16,4 +16,8 @@ def bubble_sort(array)
 	return "Sorted array: #{array.inspect}"
 end
 
+def bubble_sort_by(array)
+	
+end
+
 puts bubble_sort([4,3,78,2,0,2])
