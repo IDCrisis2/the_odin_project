@@ -1,0 +1,2692 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>development.log - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../../";
+</script>
+
+<script src="../../../js/jquery.js"></script>
+<script src="../../../js/darkfish.js"></script>
+
+<link href="../../../css/fonts.css" rel="stylesheet">
+<link href="../../../css/rdoc.css" rel="stylesheet">
+
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../../table_of_contents.html#pages">Pages</a>
+    <a href="../../../table_of_contents.html#classes">Classes</a>
+    <a href="../../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    <div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../../README_md.html">README</a>
+  
+    <li><a href="../../../Rails/blogger/Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../../Rails/blogger/Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../../Rails/blogger/README_rdoc.html">README</a>
+  
+    <li><a href="../../../Rails/blogger/Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/javascripts/application_js.html">application.js</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/javascripts/articles_coffee.html">articles.coffee</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/javascripts/author_sessions_coffee.html">author_sessions.coffee</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/javascripts/comments_coffee.html">comments.coffee</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/javascripts/tags_coffee.html">tags.coffee</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/stylesheets/application_css.html">application.css</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/stylesheets/articles_scss.html">articles.scss</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/stylesheets/author_sessions_scss.html">author_sessions.scss</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/stylesheets/comments_scss.html">comments.scss</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/stylesheets/screen_css.html">screen.css</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/stylesheets/styles_css_scss.html">styles.css.scss</a>
+  
+    <li><a href="../../../Rails/blogger/app/assets/stylesheets/tags_scss.html">tags.scss</a>
+  
+    <li><a href="../../../Rails/blogger/app/views/authors/index_json_jbuilder.html">index.json.jbuilder</a>
+  
+    <li><a href="../../../Rails/blogger/app/views/authors/show_json_jbuilder.html">show.json.jbuilder</a>
+  
+    <li><a href="../../../Rails/blogger/config_ru.html">config.ru</a>
+  
+    <li><a href="../../../Rails/blogger/log/development_log.html">development.log</a>
+  
+    <li><a href="../../../Rails/blogger/public/404_html.html">404.html</a>
+  
+    <li><a href="../../../Rails/blogger/public/422_html.html">422.html</a>
+  
+    <li><a href="../../../Rails/blogger/public/500_html.html">500.html</a>
+  
+    <li><a href="../../../Rails/blogger/public/favicon_ico.html">favicon.ico</a>
+  
+    <li><a href="../../../Rails/blogger/public/robots_txt.html">robots</a>
+  
+    <li><a href="../../../Rails/toy_app/Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../../Rails/toy_app/Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../../Rails/toy_app/README_rdoc.html">README</a>
+  
+    <li><a href="../../../Rails/toy_app/Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../Rails/toy_app/app/assets/javascripts/application_js.html">application.js</a>
+  
+    <li><a href="../../../Rails/toy_app/app/assets/javascripts/microposts_coffee.html">microposts.coffee</a>
+  
+    <li><a href="../../../Rails/toy_app/app/assets/javascripts/users_coffee.html">users.coffee</a>
+  
+    <li><a href="../../../Rails/toy_app/app/assets/stylesheets/application_css.html">application.css</a>
+  
+    <li><a href="../../../Rails/toy_app/app/assets/stylesheets/microposts_scss.html">microposts.scss</a>
+  
+    <li><a href="../../../Rails/toy_app/app/assets/stylesheets/scaffolds_scss.html">scaffolds.scss</a>
+  
+    <li><a href="../../../Rails/toy_app/app/assets/stylesheets/users_scss.html">users.scss</a>
+  
+    <li><a href="../../../Rails/toy_app/app/views/microposts/index_json_jbuilder.html">index.json.jbuilder</a>
+  
+    <li><a href="../../../Rails/toy_app/app/views/microposts/show_json_jbuilder.html">show.json.jbuilder</a>
+  
+    <li><a href="../../../Rails/toy_app/app/views/users/index_json_jbuilder.html">index.json.jbuilder</a>
+  
+    <li><a href="../../../Rails/toy_app/app/views/users/show_json_jbuilder.html">show.json.jbuilder</a>
+  
+    <li><a href="../../../Rails/toy_app/config_ru.html">config.ru</a>
+  
+    <li><a href="../../../Rails/toy_app/log/development_log.html">development.log</a>
+  
+    <li><a href="../../../Rails/toy_app/public/404_html.html">404.html</a>
+  
+    <li><a href="../../../Rails/toy_app/public/422_html.html">422.html</a>
+  
+    <li><a href="../../../Rails/toy_app/public/500_html.html">500.html</a>
+  
+    <li><a href="../../../Rails/toy_app/public/favicon_ico.html">favicon.ico</a>
+  
+    <li><a href="../../../Rails/toy_app/public/robots_txt.html">robots</a>
+  
+    <li><a href="../../../google_homepage/index_html.html">index.html</a>
+  
+    <li><a href="../../../google_homepage/reset_css.html">reset.css</a>
+  
+    <li><a href="../../../google_homepage/style_css.html">style.css</a>
+  
+    <li><a href="../../../javascript-jQuery/index_html.html">index.html</a>
+  
+    <li><a href="../../../javascript-jQuery/reset_css.html">reset.css</a>
+  
+    <li><a href="../../../javascript-jQuery/script_js.html">script.js</a>
+  
+    <li><a href="../../../javascript-jQuery/style_css.html">style.css</a>
+  
+    <li><a href="../../../project_euler/problem_1_js.html">problem_1.js</a>
+  
+    <li><a href="../../../project_euler/problem_2_js.html">problem_2.js</a>
+  
+    <li><a href="../../../project_euler/problem_3_js.html">problem_3.js</a>
+  
+    <li><a href="../../../rails_projects/blog/Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../../rails_projects/blog/Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../../rails_projects/blog/README_rdoc.html">README</a>
+  
+    <li><a href="../../../rails_projects/blog/Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../rails_projects/blog/app/assets/javascripts/application_js.html">application.js</a>
+  
+    <li><a href="../../../rails_projects/blog/app/assets/javascripts/articles_coffee.html">articles.coffee</a>
+  
+    <li><a href="../../../rails_projects/blog/app/assets/javascripts/comments_coffee.html">comments.coffee</a>
+  
+    <li><a href="../../../rails_projects/blog/app/assets/javascripts/welcome_coffee.html">welcome.coffee</a>
+  
+    <li><a href="../../../rails_projects/blog/app/assets/stylesheets/application_css.html">application.css</a>
+  
+    <li><a href="../../../rails_projects/blog/app/assets/stylesheets/articles_scss.html">articles.scss</a>
+  
+    <li><a href="../../../rails_projects/blog/app/assets/stylesheets/comments_scss.html">comments.scss</a>
+  
+    <li><a href="../../../rails_projects/blog/app/assets/stylesheets/welcome_scss.html">welcome.scss</a>
+  
+    <li><a href="../../../rails_projects/blog/config_ru.html">config.ru</a>
+  
+    <li><a href="../../../rails_projects/blog/log/development_log.html">development.log</a>
+  
+    <li><a href="../../../rails_projects/blog/public/404_html.html">404.html</a>
+  
+    <li><a href="../../../rails_projects/blog/public/422_html.html">422.html</a>
+  
+    <li><a href="../../../rails_projects/blog/public/500_html.html">500.html</a>
+  
+    <li><a href="../../../rails_projects/blog/public/favicon_ico.html">favicon.ico</a>
+  
+    <li><a href="../../../rails_projects/blog/public/robots_txt.html">robots</a>
+  
+    <li><a href="../../../rails_projects/first_app/Gemfile.html">Gemfile</a>
+  
+    <li><a href="../../../rails_projects/first_app/Gemfile_lock.html">Gemfile.lock</a>
+  
+    <li><a href="../../../rails_projects/first_app/README_rdoc.html">README</a>
+  
+    <li><a href="../../../rails_projects/first_app/Rakefile.html">Rakefile</a>
+  
+    <li><a href="../../../rails_projects/first_app/app/assets/javascripts/application_js.html">application.js</a>
+  
+    <li><a href="../../../rails_projects/first_app/app/assets/stylesheets/application_css.html">application.css</a>
+  
+    <li><a href="../../../rails_projects/first_app/config_ru.html">config.ru</a>
+  
+    <li><a href="../../../rails_projects/first_app/public/404_html.html">404.html</a>
+  
+    <li><a href="../../../rails_projects/first_app/public/422_html.html">422.html</a>
+  
+    <li><a href="../../../rails_projects/first_app/public/500_html.html">500.html</a>
+  
+    <li><a href="../../../rails_projects/first_app/public/favicon_ico.html">favicon.ico</a>
+  
+    <li><a href="../../../rails_projects/first_app/public/robots_txt.html">robots</a>
+  
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page rails_projects/blog/log/development.log">
+
+<p>Started GET “/” for 127.0.0.1 at 2015-01-20 16:05:24 -0500 Processing by
+Rails::WelcomeController#index as HTML</p>
+
+<pre>Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (16.7ms)</pre>
+
+<p>Completed 200 OK in 157ms (Views: 104.2ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started GET “/” for 127.0.0.1 at 2015-01-20 16:11:14 -0500 Processing by <a
+href="../../../WelcomeController.html#method-i-index">WelcomeController#index</a>
+as HTML</p>
+
+<pre>Rendered welcome/index.html.erb within layouts/application (7.5ms)</pre>
+
+<p>Completed 200 OK in 3450ms (Views: 3399.0ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 16:11:19 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 16:11:19 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 16:11:19 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:11:19 -0500</p>
+
+<p>Started GET
+“/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1” for
+127.0.0.1 at 2015-01-20 16:11:19 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:11:20 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:11:20 -0500</p>
+
+<p>Started GET “/” for 127.0.0.1 at 2015-01-20 16:15:45 -0500 Processing by <a
+href="../../../WelcomeController.html#method-i-index">WelcomeController#index</a>
+as HTML</p>
+
+<pre>Rendered welcome/index.html.erb within layouts/application (7.0ms)</pre>
+
+<p>Completed 200 OK in 471ms (Views: 421.3ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 16:15:47 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 16:15:47 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 16:15:47 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:15:47 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:15:47 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:15:48 -0500</p>
+
+<p>Started GET
+“/assets/application-9d71a2f6dda6b569ca80f60714aabe8b.js?body=1” for
+127.0.0.1 at 2015-01-20 16:15:48 -0500</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 16:21:34 -0500</p>
+
+<p>ActionController::RoutingError (uninitialized constant <a
+href="../../../ArticlesController.html">ArticlesController</a>):</p>
+
+<pre>activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `const_get&#39;
+activesupport (4.2.0) lib/active_support/inflector/methods.rb:261:in `block in constantize&#39;
+activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `each&#39;
+activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `inject&#39;
+activesupport (4.2.0) lib/active_support/inflector/methods.rb:259:in `constantize&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:59:in `controller&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:38:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call&#39;
+rack (1.6.0) lib/rack/etag.rb:24:in `call&#39;
+rack (1.6.0) lib/rack/conditionalget.rb:25:in `call&#39;
+rack (1.6.0) lib/rack/head.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call&#39;
+activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call&#39;
+activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call&#39;
+activerecord (4.2.0) lib/active_record/migration.rb:378:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call&#39;
+rack (1.6.0) lib/rack/methodoverride.rb:22:in `call&#39;
+rack (1.6.0) lib/rack/runtime.rb:18:in `call&#39;
+activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call&#39;
+rack (1.6.0) lib/rack/sendfile.rb:113:in `call&#39;
+railties (4.2.0) lib/rails/engine.rb:518:in `call&#39;
+railties (4.2.0) lib/rails/application.rb:164:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+rack (1.6.0) lib/rack/content_length.rb:15:in `call&#39;
+rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread&#39;
+
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (13.7ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (7.4ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (58.7ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (52.5ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (5.8ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (313.2ms)</pre>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 16:24:30 -0500</p>
+
+<p>AbstractController::ActionNotFound (The action &#39;new&#39; could not be
+found for <a
+href="../../../ArticlesController.html">ArticlesController</a>):</p>
+
+<pre>actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process&#39;
+actionview (4.2.0) lib/action_view/rendering.rb:30:in `process&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call&#39;
+rack (1.6.0) lib/rack/etag.rb:24:in `call&#39;
+rack (1.6.0) lib/rack/conditionalget.rb:25:in `call&#39;
+rack (1.6.0) lib/rack/head.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call&#39;
+activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call&#39;
+activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call&#39;
+activerecord (4.2.0) lib/active_record/migration.rb:378:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call&#39;
+rack (1.6.0) lib/rack/methodoverride.rb:22:in `call&#39;
+rack (1.6.0) lib/rack/runtime.rb:18:in `call&#39;
+activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call&#39;
+rack (1.6.0) lib/rack/sendfile.rb:113:in `call&#39;
+railties (4.2.0) lib/rails/engine.rb:518:in `call&#39;
+railties (4.2.0) lib/rails/application.rb:164:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+rack (1.6.0) lib/rack/content_length.rb:15:in `call&#39;
+rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread&#39;
+
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/unknown_action.html.erb within rescues/layout (2.5ms)</pre>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 16:25:20 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML Completed 500 Internal Server Error in 33ms</p>
+
+<p>ActionView::MissingTemplate (Missing template articles/new, application/new
+with {:<a href=":en">locale=></a>, :<a href=":html">formats=></a>,
+:variants=&gt;[], :handlers=&gt;[:erb, :builder, :raw, :ruby, :coffee,
+:jbuilder]}. Searched in:</p>
+
+<pre>* &quot;/home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates&quot;
+* &quot;/home/kevin/Development/the_odin_project/rails_projects/blog/app/views&quot;</pre>
+
+<p>):</p>
+
+<pre>actionview (4.2.0) lib/action_view/path_set.rb:46:in `find&#39;
+actionview (4.2.0) lib/action_view/lookup_context.rb:121:in `find&#39;
+actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template&#39;
+actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:40:in `determine_template&#39;
+actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:8:in `render&#39;
+actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template&#39;
+actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render&#39;
+actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template&#39;
+actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template&#39;
+actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body&#39;
+actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body&#39;
+actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body&#39;
+actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render&#39;
+actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render&#39;
+activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:303:in `realtime&#39;
+activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime&#39;
+activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render&#39;
+actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render&#39;
+actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action&#39;
+actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action&#39;
+actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action&#39;
+actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks&#39;
+actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action&#39;
+actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action&#39;
+activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument&#39;
+activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument&#39;
+activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action&#39;
+actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action&#39;
+activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action&#39;
+actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process&#39;
+actionview (4.2.0) lib/action_view/rendering.rb:30:in `process&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call&#39;
+rack (1.6.0) lib/rack/etag.rb:24:in `call&#39;
+rack (1.6.0) lib/rack/conditionalget.rb:25:in `call&#39;
+rack (1.6.0) lib/rack/head.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call&#39;
+activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call&#39;
+activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call&#39;
+activerecord (4.2.0) lib/active_record/migration.rb:378:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call&#39;
+rack (1.6.0) lib/rack/methodoverride.rb:22:in `call&#39;
+rack (1.6.0) lib/rack/runtime.rb:18:in `call&#39;
+activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call&#39;
+rack (1.6.0) lib/rack/sendfile.rb:113:in `call&#39;
+railties (4.2.0) lib/rails/engine.rb:518:in `call&#39;
+railties (4.2.0) lib/rails/application.rb:164:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+rack (1.6.0) lib/rack/content_length.rb:15:in `call&#39;
+rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread&#39;
+
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (50.4ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (21.1ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (5.7ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (5.4ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (176.0ms)</pre>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 16:28:36 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML</p>
+
+<pre>Rendered articles/new.html.erb within layouts/application (1.7ms)</pre>
+
+<p>Completed 200 OK in 1254ms (Views: 1249.6ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 16:28:38 -0500</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 16:28:38 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 16:28:38 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:28:38 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 16:28:38 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:28:38 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:28:38 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 16:28:38 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:28:38 -0500</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 16:29:22 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML</p>
+
+<pre>Rendered articles/new.html.erb within layouts/application (80.9ms)</pre>
+
+<p>Completed 200 OK in 412ms (Views: 408.6ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 16:29:23 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 16:29:23 -0500</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 16:29:23 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:29:23 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 16:29:23 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:29:23 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:29:23 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:29:23 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 16:29:23 -0500</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 16:31:41 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML</p>
+
+<pre>Rendered articles/new.html.erb within layouts/application (11.4ms)</pre>
+
+<p>Completed 200 OK in 337ms (Views: 334.4ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 16:31:42 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 16:31:42 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 16:31:42 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:31:42 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 16:31:42 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:31:42 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:31:42 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 16:31:42 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 16:31:42 -0500</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 16:33:29 -0500</p>
+
+<p>AbstractController::ActionNotFound (The action &#39;create&#39; could not
+be found for <a
+href="../../../ArticlesController.html">ArticlesController</a>):</p>
+
+<pre>actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process&#39;
+actionview (4.2.0) lib/action_view/rendering.rb:30:in `process&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call&#39;
+rack (1.6.0) lib/rack/etag.rb:24:in `call&#39;
+rack (1.6.0) lib/rack/conditionalget.rb:38:in `call&#39;
+rack (1.6.0) lib/rack/head.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call&#39;
+activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call&#39;
+activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call&#39;
+activerecord (4.2.0) lib/active_record/migration.rb:378:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call&#39;
+rack (1.6.0) lib/rack/methodoverride.rb:22:in `call&#39;
+rack (1.6.0) lib/rack/runtime.rb:18:in `call&#39;
+activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call&#39;
+rack (1.6.0) lib/rack/sendfile.rb:113:in `call&#39;
+railties (4.2.0) lib/rails/engine.rb:518:in `call&#39;
+railties (4.2.0) lib/rails/application.rb:164:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+rack (1.6.0) lib/rack/content_length.rb:15:in `call&#39;
+rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread&#39;
+
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/unknown_action.html.erb within rescues/layout (1.9ms)</pre>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 16:34:20 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;5/TR43z7WrlJZy8NQ5VGV8r4Q2kPdOCCVtqDV9tKuaDBxixaxrIaWNz+nhq7qk6RimdtOrw3z1P+eEq0U5IxzA==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Awesome!&quot;, &quot;text&quot;=&gt;&quot;This is cool!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}</pre>
+
+<p>Completed 500 Internal Server Error in 29ms</p>
+
+<p>ActionView::MissingTemplate (Missing template articles/create,
+application/create with {:<a href=":en">locale=></a>, :<a
+href=":html">formats=></a>, :variants=&gt;[], :handlers=&gt;[:erb,
+:builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:</p>
+
+<pre>* &quot;/home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates&quot;
+* &quot;/home/kevin/Development/the_odin_project/rails_projects/blog/app/views&quot;</pre>
+
+<p>):</p>
+
+<pre>actionview (4.2.0) lib/action_view/path_set.rb:46:in `find&#39;
+actionview (4.2.0) lib/action_view/lookup_context.rb:121:in `find&#39;
+actionview (4.2.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template&#39;
+actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:40:in `determine_template&#39;
+actionview (4.2.0) lib/action_view/renderer/template_renderer.rb:8:in `render&#39;
+actionview (4.2.0) lib/action_view/renderer/renderer.rb:42:in `render_template&#39;
+actionview (4.2.0) lib/action_view/renderer/renderer.rb:23:in `render&#39;
+actionview (4.2.0) lib/action_view/rendering.rb:100:in `_render_template&#39;
+actionpack (4.2.0) lib/action_controller/metal/streaming.rb:217:in `_render_template&#39;
+actionview (4.2.0) lib/action_view/rendering.rb:83:in `render_to_body&#39;
+actionpack (4.2.0) lib/action_controller/metal/rendering.rb:32:in `render_to_body&#39;
+actionpack (4.2.0) lib/action_controller/metal/renderers.rb:37:in `render_to_body&#39;
+actionpack (4.2.0) lib/abstract_controller/rendering.rb:25:in `render&#39;
+actionpack (4.2.0) lib/action_controller/metal/rendering.rb:16:in `render&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render&#39;
+activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/benchmark.rb:303:in `realtime&#39;
+activesupport (4.2.0) lib/active_support/core_ext/benchmark.rb:12:in `ms&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime&#39;
+activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:40:in `render&#39;
+actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render&#39;
+actionpack (4.2.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action&#39;
+actionpack (4.2.0) lib/abstract_controller/base.rb:198:in `process_action&#39;
+actionpack (4.2.0) lib/action_controller/metal/rendering.rb:10:in `process_action&#39;
+actionpack (4.2.0) lib/abstract_controller/callbacks.rb:20:in `block in process_action&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:117:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:234:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:169:in `block in halting&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:92:in `_run_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_process_action_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks&#39;
+actionpack (4.2.0) lib/abstract_controller/callbacks.rb:19:in `process_action&#39;
+actionpack (4.2.0) lib/action_controller/metal/rescue.rb:29:in `process_action&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action&#39;
+activesupport (4.2.0) lib/active_support/notifications.rb:164:in `block in instrument&#39;
+activesupport (4.2.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument&#39;
+activesupport (4.2.0) lib/active_support/notifications.rb:164:in `instrument&#39;
+actionpack (4.2.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action&#39;
+actionpack (4.2.0) lib/action_controller/metal/params_wrapper.rb:250:in `process_action&#39;
+activerecord (4.2.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action&#39;
+actionpack (4.2.0) lib/abstract_controller/base.rb:137:in `process&#39;
+actionview (4.2.0) lib/action_view/rendering.rb:30:in `process&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call&#39;
+rack (1.6.0) lib/rack/etag.rb:24:in `call&#39;
+rack (1.6.0) lib/rack/conditionalget.rb:38:in `call&#39;
+rack (1.6.0) lib/rack/head.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call&#39;
+activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call&#39;
+activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call&#39;
+activerecord (4.2.0) lib/active_record/migration.rb:378:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call&#39;
+rack (1.6.0) lib/rack/methodoverride.rb:22:in `call&#39;
+rack (1.6.0) lib/rack/runtime.rb:18:in `call&#39;
+activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call&#39;
+rack (1.6.0) lib/rack/sendfile.rb:113:in `call&#39;
+railties (4.2.0) lib/rails/engine.rb:518:in `call&#39;
+railties (4.2.0) lib/rails/application.rb:164:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+rack (1.6.0) lib/rack/content_length.rb:15:in `call&#39;
+rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread&#39;
+
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (47.5ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (20.6ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (5.9ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (5.7ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/missing_template.html.erb within rescues/layout (165.4ms)</pre>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 16:35:41 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;5/TR43z7WrlJZy8NQ5VGV8r4Q2kPdOCCVtqDV9tKuaDBxixaxrIaWNz+nhq7qk6RimdtOrw3z1P+eEq0U5IxzA==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Awesome!&quot;, &quot;text&quot;=&gt;&quot;This is cool!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}
+Rendered text template (0.2ms)</pre>
+
+<p>Completed 200 OK in 48ms (Views: 44.1ms | ActiveRecord: 0.0ms)</p>
+
+<pre>[1m[36m (248.4ms)[0m  [1mCREATE TABLE &quot;schema_migrations&quot; (&quot;version&quot; varchar NOT NULL) [0m
+[1m[35m (0.5ms)[0m  select sqlite_version(*)
+[1m[36m (205.2ms)[0m  [1mCREATE UNIQUE INDEX &quot;unique_schema_migrations&quot; ON &quot;schema_migrations&quot; (&quot;version&quot;)[0m
+[1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT &quot;schema_migrations&quot;.* FROM &quot;schema_migrations&quot;</pre>
+
+<p>Migrating to <a href="../../../CreateArticles.html">CreateArticles</a>
+(20150120220021)</p>
+
+<pre>[1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+[1m[35m (1.9ms)[0m  CREATE TABLE &quot;articles&quot; (&quot;id&quot; INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, &quot;title&quot; varchar, &quot;text&quot; text, &quot;created_at&quot; datetime NOT NULL, &quot;updated_at&quot; datetime NOT NULL) 
+[1m[36mSQL (0.9ms)[0m  [1mINSERT INTO &quot;schema_migrations&quot; (&quot;version&quot;) VALUES (?)[0m  [[&quot;version&quot;, &quot;20150120220021&quot;]]
+[1m[35m (196.3ms)[0m  commit transaction
+[1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT &quot;schema_migrations&quot;.* FROM &quot;schema_migrations&quot;[0m</pre>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 17:06:25 -0500</p>
+
+<pre>[1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT &quot;schema_migrations&quot;.* FROM &quot;schema_migrations&quot;[0m</pre>
+
+<p>Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;5/TR43z7WrlJZy8NQ5VGV8r4Q2kPdOCCVtqDV9tKuaDBxixaxrIaWNz+nhq7qk6RimdtOrw3z1P+eEq0U5IxzA==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Awesome!&quot;, &quot;text&quot;=&gt;&quot;This is cool!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}</pre>
+
+<p>Completed 500 Internal Server Error in 41ms</p>
+
+<p>ActiveModel::ForbiddenAttributesError
+(ActiveModel::ForbiddenAttributesError):</p>
+
+<pre>app/controllers/articles_controller.rb:6:in `create&#39;
+
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (41.9ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (18.9ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (5.8ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (5.4ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (160.3ms)</pre>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 17:09:24 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;5/TR43z7WrlJZy8NQ5VGV8r4Q2kPdOCCVtqDV9tKuaDBxixaxrIaWNz+nhq7qk6RimdtOrw3z1P+eEq0U5IxzA==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Awesome!&quot;, &quot;text&quot;=&gt;&quot;This is cool!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}</pre>
+
+<p>Completed 500 Internal Server Error in 37ms</p>
+
+<p>ActiveModel::ForbiddenAttributesError
+(ActiveModel::ForbiddenAttributesError):</p>
+
+<pre>app/controllers/articles_controller.rb:6:in `create&#39;
+
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (41.7ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (17.9ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (6.5ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (5.0ms)
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (182.1ms)</pre>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 17:10:03 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;5/TR43z7WrlJZy8NQ5VGV8r4Q2kPdOCCVtqDV9tKuaDBxixaxrIaWNz+nhq7qk6RimdtOrw3z1P+eEq0U5IxzA==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Awesome!&quot;, &quot;text&quot;=&gt;&quot;This is cool!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}
+[1m[35m (0.8ms)[0m  begin transaction
+[1m[36mSQL (2.1ms)[0m  [1mINSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;text&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;title&quot;, &quot;Awesome!&quot;], [&quot;text&quot;, &quot;This is cool!&quot;], [&quot;created_at&quot;, &quot;2015-01-20 22:10:03.401853&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 22:10:03.401853&quot;]]
+[1m[35m (251.4ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/1">localhost:3000/articles/1</a>
+Completed 302 Found in 332ms (ActiveRecord: 260.1ms)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2015-01-20 17:10:03 -0500</p>
+
+<p>AbstractController::ActionNotFound (The action &#39;show&#39; could not be
+found for <a
+href="../../../ArticlesController.html">ArticlesController</a>):</p>
+
+<pre>actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process&#39;
+actionview (4.2.0) lib/action_view/rendering.rb:30:in `process&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch&#39;
+actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each&#39;
+actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve&#39;
+actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call&#39;
+rack (1.6.0) lib/rack/etag.rb:24:in `call&#39;
+rack (1.6.0) lib/rack/conditionalget.rb:25:in `call&#39;
+rack (1.6.0) lib/rack/head.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context&#39;
+rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call&#39;
+activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call&#39;
+activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call&#39;
+activerecord (4.2.0) lib/active_record/migration.rb:378:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks&#39;
+activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call&#39;
+web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged&#39;
+activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged&#39;
+railties (4.2.0) lib/rails/rack/logger.rb:20:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call&#39;
+rack (1.6.0) lib/rack/methodoverride.rb:22:in `call&#39;
+rack (1.6.0) lib/rack/runtime.rb:18:in `call&#39;
+activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call&#39;
+rack (1.6.0) lib/rack/sendfile.rb:113:in `call&#39;
+railties (4.2.0) lib/rails/engine.rb:518:in `call&#39;
+railties (4.2.0) lib/rails/application.rb:164:in `call&#39;
+rack (1.6.0) lib/rack/lock.rb:17:in `call&#39;
+rack (1.6.0) lib/rack/content_length.rb:15:in `call&#39;
+rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run&#39;
+/home/kevin/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread&#39;
+
+Rendered /home/kevin/.rvm/gems/ruby-2.2.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/unknown_action.html.erb within rescues/layout (1.9ms)</pre>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 17:12:57 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;5/TR43z7WrlJZy8NQ5VGV8r4Q2kPdOCCVtqDV9tKuaDBxixaxrIaWNz+nhq7qk6RimdtOrw3z1P+eEq0U5IxzA==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Awesome!&quot;, &quot;text&quot;=&gt;&quot;This is cool!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}
+[1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+[1m[35mSQL (1.9ms)[0m  INSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;text&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)  [[&quot;title&quot;, &quot;Awesome!&quot;], [&quot;text&quot;, &quot;This is cool!&quot;], [&quot;created_at&quot;, &quot;2015-01-20 22:12:57.279359&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 22:12:57.279359&quot;]]
+[1m[36m (178.2ms)[0m  [1mcommit transaction[0m</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/2">localhost:3000/articles/2</a>
+Completed 302 Found in 231ms (ActiveRecord: 183.7ms)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2015-01-20 17:12:57 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[35mArticle Load (1.0ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 2]]
+Rendered articles/show.html.erb within layouts/application (2.3ms)</pre>
+
+<p>Completed 200 OK in 356ms (Views: 297.2ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:12:58 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:12:58 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:12:58 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:12:58 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:12:58 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:12:58 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:12:58 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:12:58 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:12:58 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:15:36 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (1.8ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (29.8ms)</pre>
+
+<p>Completed 200 OK in 322ms (Views: 307.3ms | ActiveRecord: 4.0ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:15:37 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:15:37 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:15:37 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:15:37 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:15:37 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:15:37 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:15:37 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:15:37 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:15:37 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:20:04 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (0.9ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (6.7ms)</pre>
+
+<p>Completed 200 OK in 360ms (Views: 356.4ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:05 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:20:05 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:05 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:05 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:20:05 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:05 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:05 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:05 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:20:05 -0500</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 17:20:07 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML</p>
+
+<pre>Rendered articles/new.html.erb within layouts/application (11.1ms)</pre>
+
+<p>Completed 200 OK in 294ms (Views: 291.9ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:20:09 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (1.0ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (7.4ms)</pre>
+
+<p>Completed 200 OK in 294ms (Views: 290.4ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/” for 127.0.0.1 at 2015-01-20 17:20:17 -0500 Processing by <a
+href="../../../WelcomeController.html#method-i-index">WelcomeController#index</a>
+as HTML</p>
+
+<pre>Rendered welcome/index.html.erb within layouts/application (7.4ms)</pre>
+
+<p>Completed 200 OK in 326ms (Views: 317.5ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:17 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:17 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:20:18 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:18 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:18 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:20:18 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:18 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:20:18 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:18 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:20:20 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (1.1ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (5.1ms)</pre>
+
+<p>Completed 200 OK in 265ms (Views: 260.9ms | ActiveRecord: 1.1ms)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 17:20:22 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML</p>
+
+<pre>Rendered articles/new.html.erb within layouts/application (6.1ms)</pre>
+
+<p>Completed 200 OK in 311ms (Views: 308.6ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 17:20:37 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;ongTy1ghfV94UrXLZMm8k6cuLgKScdbMTiOXzvBu32WESu5y4mg9vu3LBNyc9rRV57EAUSEy+R3mgV4teLZXCQ==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Rails is Awesome!!&quot;, &quot;text&quot;=&gt;&quot;Really Awesome!!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}
+[1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+[1m[35mSQL (1.8ms)[0m  INSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;text&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)  [[&quot;title&quot;, &quot;Rails is Awesome!!&quot;], [&quot;text&quot;, &quot;Really Awesome!!&quot;], [&quot;created_at&quot;, &quot;2015-01-20 22:20:37.655017&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 22:20:37.655017&quot;]]
+[1m[36m (228.7ms)[0m  [1mcommit transaction[0m</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/3">localhost:3000/articles/3</a>
+Completed 302 Found in 254ms (ActiveRecord: 230.9ms)</p>
+
+<p>Started GET “/articles/3” for 127.0.0.1 at 2015-01-20 17:20:37 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;3&quot;}
+[1m[35mArticle Load (0.9ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 3]]
+Rendered articles/show.html.erb within layouts/application (4.8ms)</pre>
+
+<p>Completed 200 OK in 293ms (Views: 284.9ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:38 -0500</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:38 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:20:38 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:20:38 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:38 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:38 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:38 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:20:38 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:20:38 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:20:41 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (0.8ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (4.4ms)</pre>
+
+<p>Completed 200 OK in 279ms (Views: 275.3ms | ActiveRecord: 0.8ms)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 17:25:17 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML</p>
+
+<pre>Rendered articles/new.html.erb within layouts/application (17.7ms)</pre>
+
+<p>Completed 200 OK in 367ms (Views: 329.6ms | ActiveRecord: 3.6ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:19 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:19 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:25:19 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:25:19 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:19 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:19 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:19 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:25:19 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:19 -0500</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 17:25:22 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;w8IttEN4Mt9omaH1uNlJiSHeEtUaYt+gllCAO5RtN+bl8NAN+TFyPv0AEOJA5kFPYUE8hqkh8HE+8knYHLW/ig==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;&quot;, &quot;text&quot;=&gt;&quot;&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}
+[1m[35m (0.4ms)[0m  begin transaction
+[1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Rendered articles/new.html.erb within layouts/application (11.0ms)</pre>
+
+<p>Completed 200 OK in 292ms (Views: 272.7ms | ActiveRecord: 0.8ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:23 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:23 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:23 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:23 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:25:23 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:23 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:25:23 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:25:23 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:25:23 -0500</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 17:27:34 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;w8IttEN4Mt9omaH1uNlJiSHeEtUaYt+gllCAO5RtN+bl8NAN+TFyPv0AEOJA5kFPYUE8hqkh8HE+8knYHLW/ig==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;&quot;, &quot;text&quot;=&gt;&quot;Hello!!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}
+[1m[35m (0.9ms)[0m  begin transaction
+[1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Rendered articles/new.html.erb within layouts/application (22.8ms)</pre>
+
+<p>Completed 200 OK in 353ms (Views: 331.6ms | ActiveRecord: 1.3ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:27:35 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:27:35 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:27:35 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:27:35 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:27:35 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:27:35 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:27:35 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:27:35 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:27:35 -0500</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 17:28:10 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;xtlJlL1POywbicUdh45vC7oiy+BuxTwRakJhXfmChijg67QtBwZ7zY4QdAp/sWfN+r3ls92GE8DC4Ki+cVoORA==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Woo Hoo!&quot;, &quot;text&quot;=&gt;&quot;Hello!!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;}
+[1m[35m (0.5ms)[0m  begin transaction
+[1m[36mSQL (1.7ms)[0m  [1mINSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;text&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;title&quot;, &quot;Woo Hoo!&quot;], [&quot;text&quot;, &quot;Hello!!&quot;], [&quot;created_at&quot;, &quot;2015-01-20 22:28:10.419320&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 22:28:10.419320&quot;]]
+[1m[35m (224.2ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/4">localhost:3000/articles/4</a>
+Completed 302 Found in 246ms (ActiveRecord: 226.4ms)</p>
+
+<p>Started GET “/articles/4” for 127.0.0.1 at 2015-01-20 17:28:10 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;4&quot;}
+[1m[36mArticle Load (1.4ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 4]]
+Rendered articles/show.html.erb within layouts/application (1.4ms)</pre>
+
+<p>Completed 200 OK in 286ms (Views: 276.4ms | ActiveRecord: 1.4ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:28:11 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:28:11 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:28:11 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:28:11 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:28:11 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:28:11 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:28:11 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:28:11 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:28:11 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:28:13 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (0.8ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (4.7ms)</pre>
+
+<p>Completed 200 OK in 268ms (Views: 265.3ms | ActiveRecord: 0.8ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:35:23 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (1.7ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (34.5ms)</pre>
+
+<p>Completed 200 OK in 324ms (Views: 305.1ms | ActiveRecord: 3.7ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:24 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:24 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:35:24 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:24 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:24 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:35:24 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:24 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:24 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:35:24 -0500</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2015-01-20 17:35:31 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[35mArticle Load (1.0ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 2]]
+Rendered articles/show.html.erb within layouts/application (3.9ms)</pre>
+
+<p>Completed 200 OK in 307ms (Views: 299.0ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:35:33 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (0.9ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (11.1ms)</pre>
+
+<p>Completed 200 OK in 281ms (Views: 276.7ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2015-01-20 17:35:36 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[35mArticle Load (0.9ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 2]]
+Rendered articles/show.html.erb within layouts/application (2.2ms)</pre>
+
+<p>Completed 200 OK in 276ms (Views: 270.6ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/articles/2/edit” for 127.0.0.1 at 2015-01-20 17:35:40 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-edit">ArticlesController#edit</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.5ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 2]]
+Rendered articles/edit.html.erb within layouts/application (15.8ms)</pre>
+
+<p>Completed 200 OK in 282ms (Views: 277.2ms | ActiveRecord: 0.5ms)</p>
+
+<p>Started PATCH “/articles/2” for 127.0.0.1 at 2015-01-20 17:35:47 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-update">ArticlesController#update</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;M4LEQ4O6H4C5en92CJWHQZV1IbS4hMW0q6CrXbj7/6sVsDn6OfNfYSzjzmHwqo+H1eoP5wvH6mUDAmK+MCN3xw==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Awesome 2!&quot;, &quot;text&quot;=&gt;&quot;This is cool!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;, &quot;id&quot;=&gt;&quot;2&quot;}
+[1m[35mArticle Load (0.5ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 2]]
+[1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+[1m[35mSQL (1.4ms)[0m  UPDATE &quot;articles&quot; SET &quot;title&quot; = ?, &quot;updated_at&quot; = ? WHERE &quot;articles&quot;.&quot;id&quot; = ?  [[&quot;title&quot;, &quot;Awesome 2!&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 22:35:47.520135&quot;], [&quot;id&quot;, 2]]
+[1m[36m (276.8ms)[0m  [1mcommit transaction[0m</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/2">localhost:3000/articles/2</a>
+Completed 302 Found in 306ms (ActiveRecord: 279.1ms)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2015-01-20 17:35:47 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[35mArticle Load (0.7ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 2]]
+Rendered articles/show.html.erb within layouts/application (3.7ms)</pre>
+
+<p>Completed 200 OK in 272ms (Views: 265.8ms | ActiveRecord: 0.7ms)</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:35:48 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:35:48 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:48 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:48 -0500</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:48 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:48 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:48 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:48 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:35:48 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:35:50 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (0.9ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (7.1ms)</pre>
+
+<p>Completed 200 OK in 295ms (Views: 291.5ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/articles/2/edit” for 127.0.0.1 at 2015-01-20 17:35:54 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-edit">ArticlesController#edit</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[35mArticle Load (0.5ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 2]]
+Rendered articles/edit.html.erb within layouts/application (10.5ms)</pre>
+
+<p>Completed 200 OK in 296ms (Views: 292.2ms | ActiveRecord: 0.5ms)</p>
+
+<p>Started PATCH “/articles/2” for 127.0.0.1 at 2015-01-20 17:35:57 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-update">ArticlesController#update</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;tMToxH9QSDOWUC00SZpdbG28EiYpHipvBCHIPEdeJe2S9hV9xRkI0gPJnCOxpVWqLSM8dZpdBb6sgwHfz4atgQ==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Awesome 2!&quot;, &quot;text&quot;=&gt;&quot;This is cool 2!&quot;}, &quot;commit&quot;=&gt;&quot;Save Article&quot;, &quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.8ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 2]]
+[1m[35m (0.4ms)[0m  begin transaction
+[1m[36mSQL (1.6ms)[0m  [1mUPDATE &quot;articles&quot; SET &quot;text&quot; = ?, &quot;updated_at&quot; = ? WHERE &quot;articles&quot;.&quot;id&quot; = ?[0m  [[&quot;text&quot;, &quot;This is cool 2!&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 22:35:57.273710&quot;], [&quot;id&quot;, 2]]
+[1m[35m (295.3ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/2">localhost:3000/articles/2</a>
+Completed 302 Found in 318ms (ActiveRecord: 298.1ms)</p>
+
+<p>Started GET “/articles/2” for 127.0.0.1 at 2015-01-20 17:35:57 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;2&quot;}
+[1m[36mArticle Load (0.6ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 2]]
+Rendered articles/show.html.erb within layouts/application (1.7ms)</pre>
+
+<p>Completed 200 OK in 293ms (Views: 287.9ms | ActiveRecord: 0.6ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:58 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:58 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:35:58 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:58 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:35:58 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:58 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:58 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:35:58 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:35:58 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:36:00 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (0.8ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (8.2ms)</pre>
+
+<p>Completed 200 OK in 276ms (Views: 272.9ms | ActiveRecord: 0.8ms)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 17:59:12 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML</p>
+
+<pre>Rendered articles/_form.html.erb (13.9ms)
+Rendered articles/new.html.erb within layouts/application (22.4ms)</pre>
+
+<p>Completed 200 OK in 286ms (Views: 283.5ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 17:59:30 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;8mQLPrVTW+G9mGIa4WbVTmKSqdu6/wtjtxnZ2ThO+FDUVvaHDxobACgB0w0ZWd2IIg2HiAm8JLIfuxA6sJZwPA==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;I am Liking This!&quot;, &quot;text&quot;=&gt;&quot;I really am!&quot;}, &quot;commit&quot;=&gt;&quot;Create Article&quot;}
+[1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+[1m[35mSQL (1.9ms)[0m  INSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;text&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)  [[&quot;title&quot;, &quot;I am Liking This!&quot;], [&quot;text&quot;, &quot;I really am!&quot;], [&quot;created_at&quot;, &quot;2015-01-20 22:59:30.615796&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 22:59:30.615796&quot;]]
+[1m[36m (330.4ms)[0m  [1mcommit transaction[0m</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/5">localhost:3000/articles/5</a>
+Completed 302 Found in 350ms (ActiveRecord: 332.7ms)</p>
+
+<p>Started GET “/articles/5” for 127.0.0.1 at 2015-01-20 17:59:31 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;5&quot;}
+[1m[35mArticle Load (1.0ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 5]]
+Rendered articles/show.html.erb within layouts/application (1.7ms)</pre>
+
+<p>Completed 200 OK in 338ms (Views: 330.3ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:32 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:59:32 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:32 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:32 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:32 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:32 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:59:32 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:59:32 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:32 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:59:35 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (0.8ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (8.4ms)</pre>
+
+<p>Completed 200 OK in 284ms (Views: 280.7ms | ActiveRecord: 0.8ms)</p>
+
+<p>Started GET “/articles/5/edit” for 127.0.0.1 at 2015-01-20 17:59:43 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-edit">ArticlesController#edit</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;5&quot;}
+[1m[35mArticle Load (0.7ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 5]]
+Rendered articles/_form.html.erb (10.8ms)
+Rendered articles/edit.html.erb within layouts/application (21.1ms)</pre>
+
+<p>Completed 200 OK in 299ms (Views: 294.2ms | ActiveRecord: 0.7ms)</p>
+
+<p>Started PATCH “/articles/5” for 127.0.0.1 at 2015-01-20 17:59:51 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-update">ArticlesController#update</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;5Ocd1lPindN5ar1ueRc4Tre+PbdODyTj8Y0R+ubxQ0nC1eBv6avdMuzzDHmBKDCI9yET5P1MCzJZL9gZbinLJQ==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;I am Liking This!&quot;, &quot;text&quot;=&gt;&quot;I really am, yessir!!&quot;}, &quot;commit&quot;=&gt;&quot;Update Article&quot;, &quot;id&quot;=&gt;&quot;5&quot;}
+[1m[36mArticle Load (0.6ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 5]]
+[1m[35m (0.4ms)[0m  begin transaction
+[1m[36mSQL (1.6ms)[0m  [1mUPDATE &quot;articles&quot; SET &quot;text&quot; = ?, &quot;updated_at&quot; = ? WHERE &quot;articles&quot;.&quot;id&quot; = ?[0m  [[&quot;text&quot;, &quot;I really am, yessir!!&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 22:59:51.125233&quot;], [&quot;id&quot;, 5]]
+[1m[35m (176.2ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/5">localhost:3000/articles/5</a>
+Completed 302 Found in 203ms (ActiveRecord: 178.8ms)</p>
+
+<p>Started GET “/articles/5” for 127.0.0.1 at 2015-01-20 17:59:51 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;5&quot;}
+[1m[36mArticle Load (1.1ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 5]]
+Rendered articles/show.html.erb within layouts/application (2.3ms)</pre>
+
+<p>Completed 200 OK in 313ms (Views: 306.6ms | ActiveRecord: 1.1ms)</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:52 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:52 -0500</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:52 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 17:59:52 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 17:59:52 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:52 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:52 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 17:59:52 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 17:59:52 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 17:59:54 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (1.6ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (12.9ms)</pre>
+
+<p>Completed 200 OK in 293ms (Views: 288.3ms | ActiveRecord: 1.6ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:03:33 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (2.3ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (41.7ms)</pre>
+
+<p>Completed 200 OK in 404ms (Views: 385.8ms | ActiveRecord: 4.7ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:34 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:34 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:03:34 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:34 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:34 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:03:34 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:34 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:34 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 18:03:34 -0500</p>
+
+<p>Started DELETE “/articles/2” for 127.0.0.1 at 2015-01-20 18:03:40 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-destroy">ArticlesController#destroy</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;HemkmcCkgzWh+TIURh5mN8fS1ozIsTTRX8KyvcGdFVs721kgeu3D1DRggwO+IW7xh03433vyGwD3YHteSUWdNw==&quot;, &quot;id&quot;=&gt;&quot;2&quot;}
+[1m[35mArticle Load (1.0ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 2]]
+[1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+[1m[35mSQL (1.2ms)[0m  DELETE FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ?  [[&quot;id&quot;, 2]]
+[1m[36m (740.3ms)[0m  [1mcommit transaction[0m</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles">localhost:3000/articles</a> Completed
+302 Found in 761ms (ActiveRecord: 743.0ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:03:41 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (1.1ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (11.1ms)</pre>
+
+<p>Completed 200 OK in 292ms (Views: 287.8ms | ActiveRecord: 1.1ms)</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:42 -0500</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:42 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:03:42 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:42 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:42 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:03:42 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:42 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:03:42 -0500</p>
+
+<p>Started GET
+“/assets/application-18f10afd70767e0049304380ce89b979.js?body=1” for
+127.0.0.1 at 2015-01-20 18:03:42 -0500</p>
+
+<pre>[1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT &quot;schema_migrations&quot;.* FROM &quot;schema_migrations&quot;[0m</pre>
+
+<p>Migrating to <a href="../../../CreateComments.html">CreateComments</a>
+(20150120230508)</p>
+
+<pre>[1m[35m (0.5ms)[0m  begin transaction
+[1m[36m (1.8ms)[0m  [1mCREATE TABLE &quot;comments&quot; (&quot;id&quot; INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, &quot;commenter&quot; varchar, &quot;body&quot; text, &quot;article_id&quot; integer, &quot;created_at&quot; datetime NOT NULL, &quot;updated_at&quot; datetime NOT NULL) [0m
+[1m[35m (0.3ms)[0m  select sqlite_version(*)
+[1m[36m (0.7ms)[0m  [1mCREATE  INDEX &quot;index_comments_on_article_id&quot; ON &quot;comments&quot; (&quot;article_id&quot;)[0m
+[1m[35mSQL (0.9ms)[0m  INSERT INTO &quot;schema_migrations&quot; (&quot;version&quot;) VALUES (?)  [[&quot;version&quot;, &quot;20150120230508&quot;]]
+[1m[36m (187.6ms)[0m  [1mcommit transaction[0m
+[1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT &quot;schema_migrations&quot;.* FROM &quot;schema_migrations&quot;
+[1m[36m (0.7ms)[0m  [1m            SELECT sql
+          FROM sqlite_master
+          WHERE name=&#39;index_comments_on_article_id&#39; AND type=&#39;index&#39;
+          UNION ALL
+          SELECT sql
+          FROM sqlite_temp_master
+          WHERE name=&#39;index_comments_on_article_id&#39; AND type=&#39;index&#39;</pre>
+
+<p>[0m</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:14:31 -0500</p>
+
+<pre>[1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT &quot;schema_migrations&quot;.* FROM &quot;schema_migrations&quot;[0m</pre>
+
+<p>Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (1.0ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (33.3ms)</pre>
+
+<p>Completed 200 OK in 1718ms (Views: 1609.8ms | ActiveRecord: 3.2ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:33 -0500</p>
+
+<p>Started GET “/assets/comments-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:33 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:34 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:14:34 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:14:34 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:34 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:34 -0500</p>
+
+<p>Started GET “/assets/comments-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:34 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:34 -0500</p>
+
+<p>Started GET
+“/assets/application-d00ee1ff401e9b9eddd04141530c64f3.js?body=1” for
+127.0.0.1 at 2015-01-20 18:14:34 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:34 -0500</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2015-01-20 18:14:36 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (1.2ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 1]]
+[1m[35mComment Load (1.3ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 1]]
+Rendered articles/show.html.erb within layouts/application (319.9ms)</pre>
+
+<p>Completed 200 OK in 681ms (Views: 666.9ms | ActiveRecord: 5.3ms)</p>
+
+<p>Started POST “/articles/1/comments” for 127.0.0.1 at 2015-01-20 18:14:50
+-0500 Processing by <a
+href="../../../CommentsController.html#method-i-create">CommentsController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;N4Ottsi+kNlHv4KNeEyCXv8u7WzN5n0FBRaniSsnnV0RsVAPcvfQONImM5qAc4qYv7HDP36lUtSttG5qo/8VMQ==&quot;, &quot;comment&quot;=&gt;{&quot;commenter&quot;=&gt;&quot;Kevin&quot;, &quot;body&quot;=&gt;&quot;You&#39;re right!!&quot;}, &quot;commit&quot;=&gt;&quot;Create Comment&quot;, &quot;article_id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.7ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 1]]
+[1m[35m (0.6ms)[0m  begin transaction
+[1m[36mSQL (3.5ms)[0m  [1mINSERT INTO &quot;comments&quot; (&quot;commenter&quot;, &quot;body&quot;, &quot;article_id&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?, ?)[0m  [[&quot;commenter&quot;, &quot;Kevin&quot;], [&quot;body&quot;, &quot;You&#39;re right!!&quot;], [&quot;article_id&quot;, 1], [&quot;created_at&quot;, &quot;2015-01-20 23:14:50.430279&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 23:14:50.430279&quot;]]
+[1m[35m (330.8ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/1">localhost:3000/articles/1</a>
+Completed 302 Found in 367ms (ActiveRecord: 335.6ms)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2015-01-20 18:14:50 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (1.0ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 1]]
+[1m[35mComment Load (0.6ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 1]]
+Rendered articles/show.html.erb within layouts/application (34.3ms)</pre>
+
+<p>Completed 200 OK in 472ms (Views: 464.6ms | ActiveRecord: 1.6ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:51 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:51 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:14:52 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:52 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:14:52 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:52 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:52 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:14:52 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:14:56 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (1.0ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (16.9ms)</pre>
+
+<p>Completed 200 OK in 403ms (Views: 398.9ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2015-01-20 18:14:58 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[35mArticle Load (0.7ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 1]]
+[1m[36mComment Load (1.0ms)[0m  [1mSELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?[0m  [[&quot;article_id&quot;, 1]]
+Rendered articles/show.html.erb within layouts/application (19.3ms)</pre>
+
+<p>Completed 200 OK in 415ms (Views: 407.9ms | ActiveRecord: 1.8ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:15:01 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (1.3ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (12.9ms)</pre>
+
+<p>Completed 200 OK in 369ms (Views: 363.9ms | ActiveRecord: 1.3ms)</p>
+
+<p>Started GET “/articles/4” for 127.0.0.1 at 2015-01-20 18:15:04 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;4&quot;}
+[1m[36mArticle Load (0.5ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 4]]
+[1m[35mComment Load (0.6ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 4]]
+Rendered articles/show.html.erb within layouts/application (18.7ms)</pre>
+
+<p>Completed 200 OK in 382ms (Views: 375.8ms | ActiveRecord: 1.1ms)</p>
+
+<p>Started POST “/articles/4/comments” for 127.0.0.1 at 2015-01-20 18:15:11
+-0500 Processing by <a
+href="../../../CommentsController.html#method-i-create">CommentsController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;QepHUFyhIcDHb0s5lI1t5xS+/KY/c5OUIy6aWC/8LBNn2Lrp5uhhIVL2+i5ssmUhVCHS9YwwvEWLjFO7pySkfw==&quot;, &quot;comment&quot;=&gt;{&quot;commenter&quot;=&gt;&quot;Kevin&quot;, &quot;body&quot;=&gt;&quot;Yo!!&quot;}, &quot;commit&quot;=&gt;&quot;Create Comment&quot;, &quot;article_id&quot;=&gt;&quot;4&quot;}
+[1m[36mArticle Load (1.1ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 4]]
+[1m[35m (0.6ms)[0m  begin transaction
+[1m[36mSQL (1.3ms)[0m  [1mINSERT INTO &quot;comments&quot; (&quot;commenter&quot;, &quot;body&quot;, &quot;article_id&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?, ?)[0m  [[&quot;commenter&quot;, &quot;Kevin&quot;], [&quot;body&quot;, &quot;Yo!!&quot;], [&quot;article_id&quot;, 4], [&quot;created_at&quot;, &quot;2015-01-20 23:15:11.858250&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 23:15:11.858250&quot;]]
+[1m[35m (868.0ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/4">localhost:3000/articles/4</a>
+Completed 302 Found in 901ms (ActiveRecord: 870.9ms)</p>
+
+<p>Started GET “/articles/4” for 127.0.0.1 at 2015-01-20 18:15:12 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;4&quot;}
+[1m[36mArticle Load (0.7ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 4]]
+[1m[35mComment Load (0.6ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 4]]
+Rendered articles/show.html.erb within layouts/application (19.5ms)</pre>
+
+<p>Completed 200 OK in 411ms (Views: 405.0ms | ActiveRecord: 1.4ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:15:13 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:15:14 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:15:14 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:15:14 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:15:14 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:15:14 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:15:14 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:15:14 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:15:16 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (0.9ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (12.1ms)</pre>
+
+<p>Completed 200 OK in 322ms (Views: 317.8ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2015-01-20 18:18:56 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[35mArticle Load (0.5ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 1]]
+[1m[36mComment Load (0.5ms)[0m  [1mSELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?[0m  [[&quot;article_id&quot;, 1]]
+Rendered comments/_comment.html.erb (2.7ms)
+Rendered comments/_form.html.erb (12.7ms)
+Rendered articles/show.html.erb within layouts/application (37.2ms)</pre>
+
+<p>Completed 200 OK in 383ms (Views: 378.0ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:19:03 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (0.9ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (9.5ms)</pre>
+
+<p>Completed 200 OK in 336ms (Views: 332.2ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/articles/3” for 127.0.0.1 at 2015-01-20 18:19:05 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;3&quot;}
+[1m[36mArticle Load (0.5ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 3]]
+[1m[35mComment Load (0.5ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 3]]
+Rendered collection (0.2ms)
+Rendered comments/_form.html.erb (13.3ms)
+Rendered articles/show.html.erb within layouts/application (24.9ms)</pre>
+
+<p>Completed 200 OK in 351ms (Views: 345.8ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:19:07 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (1.0ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (10.8ms)</pre>
+
+<p>Completed 200 OK in 371ms (Views: 367.4ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/articles/5” for 127.0.0.1 at 2015-01-20 18:19:08 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;5&quot;}
+[1m[35mArticle Load (0.5ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 5]]
+[1m[36mComment Load (0.5ms)[0m  [1mSELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?[0m  [[&quot;article_id&quot;, 5]]
+Rendered collection (0.1ms)
+Rendered comments/_form.html.erb (11.8ms)
+Rendered articles/show.html.erb within layouts/application (23.7ms)</pre>
+
+<p>Completed 200 OK in 339ms (Views: 333.5ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:19:10 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (0.9ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (10.2ms)</pre>
+
+<p>Completed 200 OK in 382ms (Views: 378.4ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/articles/5” for 127.0.0.1 at 2015-01-20 18:19:17 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;5&quot;}
+[1m[36mArticle Load (0.6ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 5]]
+[1m[35mComment Load (0.5ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 5]]
+Rendered collection (0.1ms)
+Rendered comments/_form.html.erb (11.5ms)
+Rendered articles/show.html.erb within layouts/application (23.8ms)</pre>
+
+<p>Completed 200 OK in 346ms (Views: 341.2ms | ActiveRecord: 1.1ms)</p>
+
+<p>Started POST “/articles/5/comments” for 127.0.0.1 at 2015-01-20 18:19:32
+-0500 Processing by <a
+href="../../../CommentsController.html#method-i-create">CommentsController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;N6UuQtrh0PSxB+fjcSt+TdvoRmaqNaaT1Lr69rBBDhwRl9P7YKiQFSSeVvSJFHaLm3doNRl2iUJ8GDMVOJmGcA==&quot;, &quot;comment&quot;=&gt;{&quot;commenter&quot;=&gt;&quot;GOT YA!&quot;, &quot;body&quot;=&gt;&quot;SPAM SPAM SPAM&quot;}, &quot;commit&quot;=&gt;&quot;Create Comment&quot;, &quot;article_id&quot;=&gt;&quot;5&quot;}
+[1m[36mArticle Load (0.5ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 5]]
+[1m[35m (0.5ms)[0m  begin transaction
+[1m[36mSQL (1.7ms)[0m  [1mINSERT INTO &quot;comments&quot; (&quot;commenter&quot;, &quot;body&quot;, &quot;article_id&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?, ?)[0m  [[&quot;commenter&quot;, &quot;GOT YA!&quot;], [&quot;body&quot;, &quot;SPAM SPAM SPAM&quot;], [&quot;article_id&quot;, 5], [&quot;created_at&quot;, &quot;2015-01-20 23:19:32.682583&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 23:19:32.682583&quot;]]
+[1m[35m (272.8ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/5">localhost:3000/articles/5</a>
+Completed 302 Found in 301ms (ActiveRecord: 275.5ms)</p>
+
+<p>Started GET “/articles/5” for 127.0.0.1 at 2015-01-20 18:19:33 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;5&quot;}
+[1m[36mArticle Load (0.9ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 5]]
+[1m[35mComment Load (0.7ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 5]]
+Rendered comments/_comment.html.erb (2.4ms)
+Rendered comments/_form.html.erb (16.3ms)
+Rendered articles/show.html.erb within layouts/application (39.4ms)</pre>
+
+<p>Completed 200 OK in 375ms (Views: 366.9ms | ActiveRecord: 1.6ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:19:34 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:19:34 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:19:34 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:19:34 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:19:34 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:19:34 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:19:34 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:19:34 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:19:38 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (0.9ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (10.4ms)</pre>
+
+<p>Completed 200 OK in 327ms (Views: 323.4ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/articles/5” for 127.0.0.1 at 2015-01-20 18:22:57 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;5&quot;}
+[1m[35mArticle Load (0.8ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 5]]
+[1m[36mComment Load (1.0ms)[0m  [1mSELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?[0m  [[&quot;article_id&quot;, 5]]
+Rendered comments/_comment.html.erb (7.7ms)
+Rendered comments/_form.html.erb (11.2ms)
+Rendered articles/show.html.erb within layouts/application (80.7ms)</pre>
+
+<p>Completed 200 OK in 485ms (Views: 442.0ms | ActiveRecord: 6.0ms)</p>
+
+<p>Started DELETE “/articles/5/comments/3” for 127.0.0.1 at 2015-01-20
+18:23:02 -0500 Processing by <a
+href="../../../CommentsController.html#method-i-destroy">CommentsController#destroy</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;G53CrZjhDqeZaWSfRa6s+bp1vqah7bExI59AL0kaFvw9rz8UIqhORgzw1Yi9kaQ/+uqQ9RKunuCLPYnMwcKekA==&quot;, &quot;article_id&quot;=&gt;&quot;5&quot;, &quot;id&quot;=&gt;&quot;3&quot;}
+[1m[35mArticle Load (0.6ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 5]]
+[1m[36mComment Load (1.3ms)[0m  [1mSELECT  &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ? AND &quot;comments&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;article_id&quot;, 5], [&quot;id&quot;, 3]]
+[1m[35m (0.7ms)[0m  begin transaction
+[1m[36mSQL (1.4ms)[0m  [1mDELETE FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;id&quot; = ?[0m  [[&quot;id&quot;, 3]]
+[1m[35m (236.1ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/5">localhost:3000/articles/5</a>
+Completed 302 Found in 261ms (ActiveRecord: 240.1ms)</p>
+
+<p>Started GET “/articles/5” for 127.0.0.1 at 2015-01-20 18:23:03 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;5&quot;}
+[1m[36mArticle Load (0.7ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 5]]
+[1m[35mComment Load (0.5ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 5]]
+Rendered collection (0.1ms)
+Rendered comments/_form.html.erb (14.2ms)
+Rendered articles/show.html.erb within layouts/application (27.8ms)</pre>
+
+<p>Completed 200 OK in 366ms (Views: 359.4ms | ActiveRecord: 1.2ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:23:04 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:23:04 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:23:04 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:23:04 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:23:04 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:23:04 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:23:04 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:23:04 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:23:08 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (1.0ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (10.7ms)</pre>
+
+<p>Completed 200 OK in 342ms (Views: 337.3ms | ActiveRecord: 1.0ms)</p>
+
+<p>Started GET “/articles/5” for 127.0.0.1 at 2015-01-20 18:23:09 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;5&quot;}
+[1m[35mArticle Load (0.7ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 5]]
+[1m[36mComment Load (0.5ms)[0m  [1mSELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?[0m  [[&quot;article_id&quot;, 5]]
+Rendered collection (0.1ms)
+Rendered comments/_form.html.erb (11.7ms)
+Rendered articles/show.html.erb within layouts/application (23.7ms)</pre>
+
+<p>Completed 200 OK in 359ms (Views: 353.0ms | ActiveRecord: 1.2ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:23:11 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (0.9ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (9.2ms)</pre>
+
+<p>Completed 200 OK in 358ms (Views: 354.4ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/articles/1” for 127.0.0.1 at 2015-01-20 18:25:45 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;1&quot;}
+[1m[36mArticle Load (0.8ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 1]]
+[1m[35mComment Load (0.9ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 1]]
+Rendered comments/_comment.html.erb (5.2ms)
+Rendered comments/_form.html.erb (11.6ms)
+Rendered articles/show.html.erb within layouts/application (82.3ms)</pre>
+
+<p>Completed 200 OK in 456ms (Views: 409.4ms | ActiveRecord: 5.9ms)</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:25:48 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[36mArticle Load (0.9ms)[0m  [1mSELECT &quot;articles&quot;.* FROM &quot;articles&quot;[0m
+Rendered articles/index.html.erb within layouts/application (10.8ms)</pre>
+
+<p>Completed 200 OK in 347ms (Views: 342.6ms | ActiveRecord: 0.9ms)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 18:25:50 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML Filter chain halted as
+#&lt;Proc:0x007f3460c2e908@/home/kevin/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_controller/metal/http_authentication.rb:71&gt;
+rendered or redirected Completed 401 Unauthorized in 5ms (ActiveRecord:
+0.0ms)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 18:25:56 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML Filter chain halted as
+#&lt;Proc:0x007f3460c2e908@/home/kevin/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_controller/metal/http_authentication.rb:71&gt;
+rendered or redirected Completed 401 Unauthorized in 3ms (ActiveRecord:
+0.0ms)</p>
+
+<p>Started GET “/articles/new” for 127.0.0.1 at 2015-01-20 18:26:08 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-new">ArticlesController#new</a>
+as HTML</p>
+
+<pre>Rendered articles/_form.html.erb (10.8ms)
+Rendered articles/new.html.erb within layouts/application (17.7ms)</pre>
+
+<p>Completed 200 OK in 355ms (Views: 351.1ms | ActiveRecord: 0.0ms)</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 18:26:20 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;J6cNnZ5EW1LzEUZ11MJ0gSxd4cULtmBwB/VvgnzDHqUBlfAkJA0bs2aI92Is/XxHbMLPlrj1T6GvV6Zh9BuWyQ==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Cool!&quot;, &quot;text&quot;=&gt;&quot;Yes, yes it is!&quot;}, &quot;commit&quot;=&gt;&quot;Create Article&quot;}</pre>
+
+<p>Filter chain halted as
+#&lt;Proc:0x007f3460c2e908@/home/kevin/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_controller/metal/http_authentication.rb:71&gt;
+rendered or redirected Completed 401 Unauthorized in 4ms (ActiveRecord:
+0.0ms)</p>
+
+<p>Started POST “/articles” for 127.0.0.1 at 2015-01-20 18:26:20 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-create">ArticlesController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;J6cNnZ5EW1LzEUZ11MJ0gSxd4cULtmBwB/VvgnzDHqUBlfAkJA0bs2aI92Is/XxHbMLPlrj1T6GvV6Zh9BuWyQ==&quot;, &quot;article&quot;=&gt;{&quot;title&quot;=&gt;&quot;Cool!&quot;, &quot;text&quot;=&gt;&quot;Yes, yes it is!&quot;}, &quot;commit&quot;=&gt;&quot;Create Article&quot;}
+[1m[35m (0.5ms)[0m  begin transaction
+[1m[36mSQL (1.2ms)[0m  [1mINSERT INTO &quot;articles&quot; (&quot;title&quot;, &quot;text&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?)[0m  [[&quot;title&quot;, &quot;Cool!&quot;], [&quot;text&quot;, &quot;Yes, yes it is!&quot;], [&quot;created_at&quot;, &quot;2015-01-20 23:26:20.285934&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 23:26:20.285934&quot;]]
+[1m[35m (200.0ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/6">localhost:3000/articles/6</a>
+Completed 302 Found in 222ms (ActiveRecord: 201.8ms)</p>
+
+<p>Started GET “/articles/6” for 127.0.0.1 at 2015-01-20 18:26:20 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;6&quot;}
+[1m[36mArticle Load (0.7ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 6]]
+[1m[35mComment Load (0.5ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 6]]
+Rendered collection (0.1ms)
+Rendered comments/_form.html.erb (12.4ms)
+Rendered articles/show.html.erb within layouts/application (25.0ms)</pre>
+
+<p>Completed 200 OK in 386ms (Views: 379.6ms | ActiveRecord: 1.2ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:21 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:21 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:21 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:21 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:26:21 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:21 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:26:21 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:21 -0500</p>
+
+<p>Started POST “/articles/6/comments” for 127.0.0.1 at 2015-01-20 18:26:37
+-0500 Processing by <a
+href="../../../CommentsController.html#method-i-create">CommentsController#create</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;utf8&quot;=&gt;&quot;✓&quot;, &quot;authenticity_token&quot;=&gt;&quot;yMbOHo5RgH9gjMfng5dKw7V03Bh43kR/emWve3BSotru9DOnNBjAnvUVdvB7qEIF9evyS8uda67Sx2aY+Ioqtg==&quot;, &quot;comment&quot;=&gt;{&quot;commenter&quot;=&gt;&quot;Kevin&quot;, &quot;body&quot;=&gt;&quot;You are correct!&quot;}, &quot;commit&quot;=&gt;&quot;Create Comment&quot;, &quot;article_id&quot;=&gt;&quot;6&quot;}
+[1m[36mArticle Load (0.8ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 6]]
+[1m[35m (0.5ms)[0m  begin transaction
+[1m[36mSQL (1.7ms)[0m  [1mINSERT INTO &quot;comments&quot; (&quot;commenter&quot;, &quot;body&quot;, &quot;article_id&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) VALUES (?, ?, ?, ?, ?)[0m  [[&quot;commenter&quot;, &quot;Kevin&quot;], [&quot;body&quot;, &quot;You are correct!&quot;], [&quot;article_id&quot;, 6], [&quot;created_at&quot;, &quot;2015-01-20 23:26:37.332789&quot;], [&quot;updated_at&quot;, &quot;2015-01-20 23:26:37.332789&quot;]]
+[1m[35m (184.7ms)[0m  commit transaction</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/6">localhost:3000/articles/6</a>
+Completed 302 Found in 216ms (ActiveRecord: 187.7ms)</p>
+
+<p>Started GET “/articles/6” for 127.0.0.1 at 2015-01-20 18:26:37 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;6&quot;}
+[1m[36mArticle Load (0.8ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 6]]
+[1m[35mComment Load (0.8ms)[0m  SELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?  [[&quot;article_id&quot;, 6]]
+Rendered comments/_comment.html.erb (5.6ms)
+Rendered comments/_form.html.erb (13.4ms)
+Rendered articles/show.html.erb within layouts/application (36.2ms)</pre>
+
+<p>Completed 200 OK in 372ms (Views: 360.3ms | ActiveRecord: 1.6ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:38 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:38 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:38 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:38 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:26:38 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:38 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:26:38 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:38 -0500</p>
+
+<p>Started DELETE “/articles/6/comments/4” for 127.0.0.1 at 2015-01-20
+18:26:43 -0500 Processing by <a
+href="../../../CommentsController.html#method-i-destroy">CommentsController#destroy</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;authenticity_token&quot;=&gt;&quot;roIc/nsG2lwLcXUGCR0cmIwH3jwlsp7NlgsPni2OKMWIsOFHwU+avZ7oxBHxIhRezJjwb5bxsRw+qcZ9pVagqQ==&quot;, &quot;article_id&quot;=&gt;&quot;6&quot;, &quot;id&quot;=&gt;&quot;4&quot;}
+[1m[36mArticle Load (0.6ms)[0m  [1mSELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1[0m  [[&quot;id&quot;, 6]]
+[1m[35mComment Load (1.2ms)[0m  SELECT  &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ? AND &quot;comments&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;article_id&quot;, 6], [&quot;id&quot;, 4]]
+[1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+[1m[35mSQL (1.7ms)[0m  DELETE FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;id&quot; = ?  [[&quot;id&quot;, 4]]
+[1m[36m (232.6ms)[0m  [1mcommit transaction[0m</pre>
+
+<p>Redirected to <a
+href="http://localhost:3000/articles/6">localhost:3000/articles/6</a>
+Completed 302 Found in 258ms (ActiveRecord: 236.4ms)</p>
+
+<p>Started GET “/articles/6” for 127.0.0.1 at 2015-01-20 18:26:43 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-show">ArticlesController#show</a>
+as HTML</p>
+
+<pre>Parameters: {&quot;id&quot;=&gt;&quot;6&quot;}
+[1m[35mArticle Load (0.6ms)[0m  SELECT  &quot;articles&quot;.* FROM &quot;articles&quot; WHERE &quot;articles&quot;.&quot;id&quot; = ? LIMIT 1  [[&quot;id&quot;, 6]]
+[1m[36mComment Load (1.1ms)[0m  [1mSELECT &quot;comments&quot;.* FROM &quot;comments&quot; WHERE &quot;comments&quot;.&quot;article_id&quot; = ?[0m  [[&quot;article_id&quot;, 6]]
+Rendered collection (0.2ms)
+Rendered comments/_form.html.erb (15.3ms)
+Rendered articles/show.html.erb within layouts/application (29.2ms)</pre>
+
+<p>Completed 200 OK in 385ms (Views: 377.3ms | ActiveRecord: 1.7ms)</p>
+
+<p>Started GET “/assets/articles-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:44 -0500</p>
+
+<p>Started GET “/assets/welcome-069e88c06b889877799890854d7f4c40.css?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:44 -0500</p>
+
+<p>Started GET
+“/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1” for
+127.0.0.1 at 2015-01-20 18:26:44 -0500</p>
+
+<p>Started GET “/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:44 -0500</p>
+
+<p>Started GET “/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:44 -0500</p>
+
+<p>Started GET “/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1” for
+127.0.0.1 at 2015-01-20 18:26:44 -0500</p>
+
+<p>Started GET “/assets/articles-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:44 -0500</p>
+
+<p>Started GET “/assets/welcome-8f6eecd1178ef85964369ec66d33c4f1.js?body=1”
+for 127.0.0.1 at 2015-01-20 18:26:44 -0500</p>
+
+<p>Started GET “/articles” for 127.0.0.1 at 2015-01-20 18:26:46 -0500
+Processing by <a
+href="../../../ArticlesController.html#method-i-index">ArticlesController#index</a>
+as HTML</p>
+
+<pre>[1m[35mArticle Load (0.9ms)[0m  SELECT &quot;articles&quot;.* FROM &quot;articles&quot;
+Rendered articles/index.html.erb within layouts/application (11.5ms)</pre>
+
+<p>Completed 200 OK in 333ms (Views: 328.2ms | ActiveRecord: 0.9ms)</p>
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="http://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="http://docs.seattlerb.org/rdoc/">RDoc</a> 4.2.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
