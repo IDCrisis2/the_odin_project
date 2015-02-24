@@ -47,6 +47,11 @@ module TicTacToe
 			end
 		end
 
+		TestCell = Struct.new(:value)
+		let(:x_cell) {TestCell.new("X") }
+		let(:y_cell) {TestCell.new("Y") }
+		let(:empty) { TestCell.new }
+
 		context "#game_over" do
 			it "returns :winner if winner? is true" do
 				board = Board.new
@@ -67,6 +72,8 @@ module TicTacToe
 				board.stub(:draw?) { false }
 				expect(board.game_over).to eq false
 			end
+
+			
 		end
 	end
 end
