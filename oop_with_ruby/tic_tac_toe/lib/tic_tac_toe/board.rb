@@ -33,7 +33,7 @@ module TicTacToe
 		end
 
 		def winning_position_values(winning_position)
-			winning_position.mao { |cell| cell.value }
+			winning_position.map { |cell| cell.value }
 		end
 
 		private
