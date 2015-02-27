@@ -36,6 +36,18 @@ module TicTacToe
 			winning_position.map { |cell| cell.value }
 		end
 
+		def formatted_grid
+			grid_array = []
+			grid.flatten.map { |cell | grid_array << cell.value }
+			puts
+			puts "  #{grid_array[0]} | #{grid_array[1]} | #{grid_array[2]}"
+			puts " -----------"
+			puts "  #{grid_array[3]} | #{grid_array[4]} | #{grid_array[5]}"
+			puts " -----------"
+			puts "  #{grid_array[6]} | #{grid_array[7]} | #{grid_array[8]}"
+			puts
+		end
+
 		private
 
 		def default_grid
@@ -51,7 +63,7 @@ module TicTacToe
 		def diagonals
 			[
 				[get_cell(0, 0), get_cell(1, 1), get_cell(2, 2)],
-				[get_cell(0, 2), get_cell(1, 1), get_cell(2, 00)]
+				[get_cell(0, 2), get_cell(1, 1), get_cell(2, 0)]
 			]
 		end		
 	end
